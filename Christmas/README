@@ -1,0 +1,20 @@
+﻿Tema realizata de: Craciunoiu Cezar 314CA
+
+						
+						Christmas
+					     	 Tema 3
+
+Programul isi doreste sa il ajute pe Mos Craciun in a parcurge toate zonele regiunii Laponia, respectiv in a sorta cadourile adunate lexicografic dupa numele oraselor, apoi in ordine descrescatoare dupa numarul de cadouri, si, in final, in ordine lexicografica acolo unde numarul de cadouri este egal intre 2 sau mai multe cadouri.
+
+Se citeste dimensiunea zonei in functie de care se declara regiunea Laponia. Apoi, se citese pozitia de plecare a mosului respectiv numarul de pasi care vrea sa ii efectueze.Apoi, Pentru fiecare linie de input se citeste aceasta si se descompune acesta in urmatoarele, folosind strtok: campul unde se salveaza prezenta mosului, orasul, jucaria, numarul de jucarii si directia in care trebuie sa mearga mosul.
+
+Dupa aceea, se realizeaza parcurgerea matricei laponia, numarandu-se cate jucarii au fost adunate si verificandu-se daca s-a iesit din matrice sau nu. In functie de cati pasi s-au realizat si cum, se realizeaza mici modificari la numarul de pasi. Apoi, se realizeaza totalul cadourilor adunate si se pune 0 pe campurile ce contin numarul de feluri.
+
+
+Dupa aceea, se realizeaza mutarea din structura laponia in structura rezultat. Procesul muta element cu element, explicatiile exacte fiind date in cod. Se tine cont daca orasul adaugat este nou sau nu, daca jucaria este noua sau nu, etc.
+
+Urmeaza sortarea lexicografica dupa numele oraselor. Se compara fiecare nume cu fiecare printr-un algoritm de tip Bubble Sort si se interschimba fiecare element cu fiecare, tinandu-se cont de care oras are mai multe elemente. Se sorteaza si dupa numarul de jucarii din fiecare camp asemanator. Pentru sortarea dupa numele jucariilor se verifica mai intai pentru fiecare oras intre ce indici ai elementelor sunt jucarii cu aceeasi cantitate. Apoi, se sorteaza intre acele valori. La final ultima valoare devine prima pentru a se trece la urmatorul set de numere.
+
+In urma trecerii din structura laponia in structura pot aparea campuri de jucarii duplicate, deoarece valorile lor sunt copiate in prima aparitie care este folosita apoi. De aceea, daca se gasesc astfel de valori duplicate se pune 0 pe numarul de jucarii pentru a fi omise la afisare.
+
+In final se realizeaza afisarea, tinandu-se cont de valorile duplicate.
